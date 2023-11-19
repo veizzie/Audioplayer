@@ -126,7 +126,6 @@ namespace Audioplayer.netfrm
                 }
             }
 
-
             TimeSpan totalDuration = TimeSpan.FromSeconds(totalSeconds);
             lbl_Duration.Text = $"{strings.duration} {totalDuration.Hours:D2}:{totalDuration.Minutes:D2}:{totalDuration.Seconds:D2}";
             totalSeconds = 0;
@@ -146,6 +145,11 @@ namespace Audioplayer.netfrm
 
             TimeSpan likedDuration = TimeSpan.FromSeconds(totalSeconds);
             lbl_duration_liked.Text = $"{strings.duration} {likedDuration.Hours:D2}:{likedDuration.Minutes:D2}:{likedDuration.Seconds:D2}";
+        }
+
+        private void ResetSongInfo()
+        {
+            song_picture.Image = null;
         }
 
         private enum PlaylistType
@@ -319,12 +323,15 @@ namespace Audioplayer.netfrm
 
         private void btn_PlayAllMusic_Click(object sender, EventArgs e)
         {
-            btn_PlayAllMusic.Hide();
-            btn_PauseAllMusic.Show();
-            SwitchToAllMusicPlaylist();
-            PlayNextSong();
-            btn_PauseLiked.Hide();
-            btn_PlayLiked.Show();
+            if (paths != null && paths.Length > 0)
+            {
+                btn_PlayAllMusic.Hide();
+                btn_PauseAllMusic.Show();
+                SwitchToAllMusicPlaylist();
+                PlayNextSong();
+                btn_PauseLiked.Hide();
+                btn_PlayLiked.Show();
+            }
         }
 
         private void btn_PauseAllMusic_Click_1(object sender, EventArgs e)
@@ -354,12 +361,15 @@ namespace Audioplayer.netfrm
 
         private void btn_PlayLiked_Click(object sender, EventArgs e)
         {
-            btn_PlayLiked.Hide();
-            btn_PauseLiked.Show();
-            SwitchToLikedPlaylist();
-            PlayNextSongLiked();
-            btn_PauseAllMusic.Hide();
-            btn_PlayAllMusic.Show();
+            if (liked != null && liked.Length > 0)
+            {
+                btn_PlayLiked.Hide();
+                btn_PauseLiked.Show();
+                SwitchToLikedPlaylist();
+                PlayNextSongLiked();
+                btn_PauseAllMusic.Hide();
+                btn_PlayAllMusic.Show();
+            }
         }
 
         private void btn_PauseLiked_Click(object sender, EventArgs e)
@@ -432,26 +442,30 @@ namespace Audioplayer.netfrm
                     btn_Like.Show();
                 }
             }
-            catch(Exception ex) { }
+            catch(Exception) { }
         }
 
         private void btn_PreviousSong_Click(object sender, EventArgs e)
         {
-            PlayPreviousSong();
-
-            string selectedSongPath = GetSelectedSongPath();
-            bool isLiked = liked.Contains(selectedSongPath);
-
-            if (isLiked)
+            try
             {
-                btn_Like.Hide();
-                btn_Liked.Show();
+                PlayPreviousSong();
+
+                string selectedSongPath = GetSelectedSongPath();
+                bool isLiked = liked.Contains(selectedSongPath);
+
+                if (isLiked)
+                {
+                    btn_Like.Hide();
+                    btn_Liked.Show();
+                }
+                else
+                {
+                    btn_Liked.Hide();
+                    btn_Like.Show();
+                }
             }
-            else
-            {
-                btn_Liked.Hide();
-                btn_Like.Show();
-            }
+            catch(Exception) { }
         }
 
         private void btn_RepeatSong_Click(object sender, EventArgs e)
@@ -510,35 +524,53 @@ namespace Audioplayer.netfrm
                 paths = paths.Where(p => p != deletedSongPath).ToArray();
                 listBox_AllMusic.Items.RemoveAt(listBox_AllMusic.SelectedIndex);
                 File.WriteAllLines(SongsFilePath, paths);
-                UpdateMySongsInfo();
-                PlayNextSong();
+
+                if(listBox_AllMusic.Items.Count == 0)
+                {
+                    player.Ctlcontrols.stop();
+                    btn_Pause.Hide();
+                    btn_Play.Show();
+                    btn_PlayAllMusic.Show();
+                    btn_PauseAllMusic.Hide();
+                    ResetSongInfo();
+                    UpdateMySongsInfo();
+                }
+                else
+                {
+                    UpdateMySongsInfo();
+                    PlayNextSong();
+                }
             }
         }
 
         private void btn_Like_Click(object sender, EventArgs e)
         {
-            // Сохраняем выбранный индекс
-            int selectedSongIndex = listBox_AllMusic.SelectedIndex;
+            try
+            {
+                // Сохраняем выбранный индекс
+                int selectedSongIndex = listBox_AllMusic.SelectedIndex;
 
-            // Добавляем песню в список liked
-            string selectedSongPath = paths[selectedSongIndex];
-            liked = liked.Append(selectedSongPath).ToArray();
+                // Добавляем песню в список liked
+                string selectedSongPath = paths[selectedSongIndex];
+                liked = liked.Append(selectedSongPath).ToArray();
 
-            // Обновляем файл liked.txt
-            File.WriteAllLines(LikeFilePath, liked);
+                // Обновляем файл liked.txt
+                File.WriteAllLines(LikeFilePath, liked);
 
-            // Перезагружаем музыку
-            LoadMusicFromFile();
+                // Перезагружаем музыку
+                LoadMusicFromFile();
 
-            // Показываем кнопку "Liked" и скрываем "Like"
-            btn_Like.Hide();
-            btn_Liked.Show();
+                // Показываем кнопку "Liked" и скрываем "Like"
+                btn_Like.Hide();
+                btn_Liked.Show();
 
-            // Восстанавливаем выбранный индекс
-            listBox_AllMusic.SelectedIndex = selectedSongIndex;
+                // Восстанавливаем выбранный индекс
+                listBox_AllMusic.SelectedIndex = selectedSongIndex;
 
-            // Обновляем информацию о песнях
-            UpdateMySongsInfo();
+                // Обновляем информацию о песнях
+                UpdateMySongsInfo();
+            }
+            catch (Exception) { }
         }
 
         private void btn_Liked_Click(object sender, EventArgs e)
@@ -734,7 +766,7 @@ namespace Audioplayer.netfrm
                     btn_Pause.Show();
                 }
             }
-            catch (Exception ex) { }
+            catch (Exception) { }
         }
 
         private void listBox_AllMusic_MouseDoubleClick(object sender, EventArgs e)
@@ -926,7 +958,7 @@ namespace Audioplayer.netfrm
                     btn_Like.Show();
                 }
             }
-            catch (Exception ex) { }
+            catch (Exception) { }
         }
 
         private void PlayPreviousSong()
