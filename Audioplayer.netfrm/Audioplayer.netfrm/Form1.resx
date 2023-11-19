@@ -1,0 +1,2003 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelLeftSide.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Settings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_Settings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 19pt, style=Bold</value>
+  </data>
+  <data name="btn_Settings.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btn_Settings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Settings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 878</value>
+  </data>
+  <data name="btn_Settings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 75</value>
+  </data>
+  <data name="btn_Settings.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btn_Settings.Text" xml:space="preserve">
+    <value>         Settings</value>
+  </data>
+  <data name="btn_Settings.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_Settings.Name" xml:space="preserve">
+    <value>btn_Settings</value>
+  </data>
+  <data name="&gt;&gt;btn_Settings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Settings.Parent" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;btn_Settings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 810</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 10</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_LikedMusic.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_LikedMusic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 18.75pt, style=Bold</value>
+  </data>
+  <data name="btn_LikedMusic.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_LikedMusic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_LikedMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 119</value>
+  </data>
+  <data name="btn_LikedMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 75</value>
+  </data>
+  <data name="btn_LikedMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btn_LikedMusic.Text" xml:space="preserve">
+    <value>          Liked</value>
+  </data>
+  <data name="btn_LikedMusic.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_LikedMusic.Name" xml:space="preserve">
+    <value>btn_LikedMusic</value>
+  </data>
+  <data name="&gt;&gt;btn_LikedMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_LikedMusic.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_LikedMusic.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_MyMusic.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_MyMusic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 18.75pt, style=Bold</value>
+  </data>
+  <data name="btn_MyMusic.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="btn_MyMusic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_MyMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 15</value>
+  </data>
+  <data name="btn_MyMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 75</value>
+  </data>
+  <data name="btn_MyMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_MyMusic.Text" xml:space="preserve">
+    <value>          All Music</value>
+  </data>
+  <data name="btn_MyMusic.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_MyMusic.Name" xml:space="preserve">
+    <value>btn_MyMusic</value>
+  </data>
+  <data name="&gt;&gt;btn_MyMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_MyMusic.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btn_MyMusic.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 298</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>381, 506</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 18.75pt, style=Bold</value>
+  </data>
+  <data name="label1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 220</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 75</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>My playlists</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 185</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 10</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_Homepage.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_Homepage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 18.75pt, style=Bold</value>
+  </data>
+  <data name="btn_Homepage.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopLeft</value>
+  </data>
+  <data name="btn_Homepage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Homepage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 57</value>
+  </data>
+  <data name="btn_Homepage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 75</value>
+  </data>
+  <data name="btn_Homepage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_Homepage.Text" xml:space="preserve">
+    <value>         Homepage</value>
+  </data>
+  <data name="btn_Homepage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;btn_Homepage.Name" xml:space="preserve">
+    <value>btn_Homepage</value>
+  </data>
+  <data name="&gt;&gt;btn_Homepage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Homepage.Parent" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;btn_Homepage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelLeftSide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="panelLeftSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelLeftSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 1038</value>
+  </data>
+  <data name="panelLeftSide.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelLeftSide.Name" xml:space="preserve">
+    <value>panelLeftSide</value>
+  </data>
+  <data name="&gt;&gt;panelLeftSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelLeftSide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelLeftSide.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_Like.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_Like.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_Like.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Like.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 900</value>
+  </data>
+  <data name="btn_Like.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 30</value>
+  </data>
+  <data name="btn_Like.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btn_Like.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btn_Like.Name" xml:space="preserve">
+    <value>btn_Like</value>
+  </data>
+  <data name="&gt;&gt;btn_Like.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Like.Parent" xml:space="preserve">
+    <value>panelRightSide</value>
+  </data>
+  <data name="&gt;&gt;btn_Like.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Liked.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_Liked.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="btn_Liked.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Liked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 900</value>
+  </data>
+  <data name="btn_Liked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 30</value>
+  </data>
+  <data name="btn_Liked.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btn_Liked.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btn_Liked.Name" xml:space="preserve">
+    <value>btn_Liked</value>
+  </data>
+  <data name="&gt;&gt;btn_Liked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Liked.Parent" xml:space="preserve">
+    <value>panelRightSide</value>
+  </data>
+  <data name="&gt;&gt;btn_Liked.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_Artist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_Artist.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Artist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 540</value>
+  </data>
+  <data name="lbl_Artist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 230</value>
+  </data>
+  <data name="lbl_Artist.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbl_Artist.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_Artist.Name" xml:space="preserve">
+    <value>lbl_Artist</value>
+  </data>
+  <data name="&gt;&gt;lbl_Artist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Artist.Parent" xml:space="preserve">
+    <value>panelRightSide</value>
+  </data>
+  <data name="&gt;&gt;lbl_Artist.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbl_NameOfSong.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_NameOfSong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_NameOfSong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 255</value>
+  </data>
+  <data name="lbl_NameOfSong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 315</value>
+  </data>
+  <data name="lbl_NameOfSong.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_NameOfSong.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_NameOfSong.Name" xml:space="preserve">
+    <value>lbl_NameOfSong</value>
+  </data>
+  <data name="&gt;&gt;lbl_NameOfSong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_NameOfSong.Parent" xml:space="preserve">
+    <value>panelRightSide</value>
+  </data>
+  <data name="&gt;&gt;lbl_NameOfSong.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="song_picture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="song_picture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 98</value>
+  </data>
+  <data name="song_picture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 114</value>
+  </data>
+  <data name="song_picture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="song_picture.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;song_picture.Name" xml:space="preserve">
+    <value>song_picture</value>
+  </data>
+  <data name="&gt;&gt;song_picture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;song_picture.Parent" xml:space="preserve">
+    <value>panelRightSide</value>
+  </data>
+  <data name="&gt;&gt;song_picture.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelRightSide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="panelRightSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1739, 0</value>
+  </data>
+  <data name="panelRightSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 1038</value>
+  </data>
+  <data name="panelRightSide.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelRightSide.Name" xml:space="preserve">
+    <value>panelRightSide</value>
+  </data>
+  <data name="&gt;&gt;panelRightSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelRightSide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelRightSide.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_deletesong.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_deletesong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_deletesong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 13</value>
+  </data>
+  <data name="btn_deletesong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_deletesong.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btn_deletesong.Name" xml:space="preserve">
+    <value>btn_deletesong</value>
+  </data>
+  <data name="&gt;&gt;btn_deletesong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_deletesong.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_deletesong.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btn_Shuffle.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_Shuffle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Shuffle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 14</value>
+  </data>
+  <data name="btn_Shuffle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_Shuffle.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btn_Shuffle.Name" xml:space="preserve">
+    <value>btn_Shuffle</value>
+  </data>
+  <data name="&gt;&gt;btn_Shuffle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Shuffle.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_Shuffle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_RepeatSong.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_RepeatSong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_RepeatSong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>798, 13</value>
+  </data>
+  <data name="btn_RepeatSong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_RepeatSong.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btn_RepeatSong.Name" xml:space="preserve">
+    <value>btn_RepeatSong</value>
+  </data>
+  <data name="&gt;&gt;btn_RepeatSong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_RepeatSong.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_RepeatSong.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>885, 36</value>
+  </data>
+  <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 29</value>
+  </data>
+  <data name="pictureBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Name" xml:space="preserve">
+    <value>pictureBox3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="volume_bar.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="volume_bar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="volume_bar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>918, 40</value>
+  </data>
+  <data name="volume_bar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 30</value>
+  </data>
+  <data name="volume_bar.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;volume_bar.Name" xml:space="preserve">
+    <value>volume_bar</value>
+  </data>
+  <data name="&gt;&gt;volume_bar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volume_bar.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;volume_bar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lbl_songEnd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_songEnd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_songEnd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1038, 89</value>
+  </data>
+  <data name="lbl_songEnd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="lbl_songEnd.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbl_songEnd.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;lbl_songEnd.Name" xml:space="preserve">
+    <value>lbl_songEnd</value>
+  </data>
+  <data name="&gt;&gt;lbl_songEnd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_songEnd.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_songEnd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_songStart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 15.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_songStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_songStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 89</value>
+  </data>
+  <data name="lbl_songStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="lbl_songStart.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_songStart.Text" xml:space="preserve">
+    <value>00:00</value>
+  </data>
+  <data name="&gt;&gt;lbl_songStart.Name" xml:space="preserve">
+    <value>lbl_songStart</value>
+  </data>
+  <data name="&gt;&gt;lbl_songStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_songStart.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lbl_songStart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btn_PreviousSong.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_PreviousSong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PreviousSong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 13</value>
+  </data>
+  <data name="btn_PreviousSong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_PreviousSong.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btn_PreviousSong.Name" xml:space="preserve">
+    <value>btn_PreviousSong</value>
+  </data>
+  <data name="&gt;&gt;btn_PreviousSong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_PreviousSong.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_PreviousSong.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_NextSong.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_NextSong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_NextSong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 13</value>
+  </data>
+  <data name="btn_NextSong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_NextSong.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_NextSong.Name" xml:space="preserve">
+    <value>btn_NextSong</value>
+  </data>
+  <data name="&gt;&gt;btn_NextSong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_NextSong.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_NextSong.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="slider.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="slider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 87</value>
+  </data>
+  <data name="slider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>720, 30</value>
+  </data>
+  <data name="slider.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;slider.Name" xml:space="preserve">
+    <value>slider</value>
+  </data>
+  <data name="&gt;&gt;slider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slider.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;slider.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="btn_Play.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_Play.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Play.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 13</value>
+  </data>
+  <data name="btn_Play.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_Play.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btn_Play.Name" xml:space="preserve">
+    <value>btn_Play</value>
+  </data>
+  <data name="&gt;&gt;btn_Play.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Play.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_Play.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btn_Pause.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_Pause.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_Pause.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 13</value>
+  </data>
+  <data name="btn_Pause.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_Pause.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btn_Pause.Name" xml:space="preserve">
+    <value>btn_Pause</value>
+  </data>
+  <data name="&gt;&gt;btn_Pause.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Pause.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;btn_Pause.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 904</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 134</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="lbl_duration_liked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_duration_liked.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_duration_liked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 173</value>
+  </data>
+  <data name="lbl_duration_liked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
+  </data>
+  <data name="lbl_duration_liked.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_duration_liked.Name" xml:space="preserve">
+    <value>lbl_duration_liked</value>
+  </data>
+  <data name="&gt;&gt;lbl_duration_liked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_duration_liked.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;lbl_duration_liked.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_quantity_liked.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_quantity_liked.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_quantity_liked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 173</value>
+  </data>
+  <data name="lbl_quantity_liked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 32</value>
+  </data>
+  <data name="lbl_quantity_liked.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_quantity_liked.Name" xml:space="preserve">
+    <value>lbl_quantity_liked</value>
+  </data>
+  <data name="&gt;&gt;lbl_quantity_liked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_quantity_liked.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;lbl_quantity_liked.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 72pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 35</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 127</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Liked</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 17</value>
+  </data>
+  <data name="pictureBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 216</value>
+  </data>
+  <data name="pictureBox4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Name" xml:space="preserve">
+    <value>pictureBox4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;pictureBox4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 250</value>
+  </data>
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+    <value>panelLiked</value>
+  </data>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="axWindowsMediaPlayer1.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="axWindowsMediaPlayer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 833</value>
+  </data>
+  <data name="axWindowsMediaPlayer1.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAuQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAKQAAAABAwAACAACAAAAAAAFAAAAAAAAAPA/AwAAAAAABQAAAAAAAAAAAAgA
+        AgAAAAAAAwABAAAACwD//wMAAAAAAAsA//8IAAIAAAAAAAMAMgAAAAsAAAAIAAoAAABuAG8AbgBlAAAA
+        CwAAAAsAAAALAP//CwD//wsAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAAIAAIAAAAAAAsAAADABwAA
+        YQIAAAs=
+</value>
+  </data>
+  <data name="axWindowsMediaPlayer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="axWindowsMediaPlayer1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="axWindowsMediaPlayer1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.Name" xml:space="preserve">
+    <value>axWindowsMediaPlayer1</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.Type" xml:space="preserve">
+    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.Parent" xml:space="preserve">
+    <value>panelLiked</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listBox_LikedMusic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 36pt, style=Bold</value>
+  </data>
+  <data name="listBox_LikedMusic.ItemHeight" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="listBox_LikedMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 292</value>
+  </data>
+  <data name="listBox_LikedMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>853, 424</value>
+  </data>
+  <data name="listBox_LikedMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listBox_LikedMusic.Name" xml:space="preserve">
+    <value>listBox_LikedMusic</value>
+  </data>
+  <data name="&gt;&gt;listBox_LikedMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox_LikedMusic.Parent" xml:space="preserve">
+    <value>panelLiked</value>
+  </data>
+  <data name="&gt;&gt;listBox_LikedMusic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelLiked.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelLiked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelLiked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 904</value>
+  </data>
+  <data name="panelLiked.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="panelLiked.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelLiked.Name" xml:space="preserve">
+    <value>panelLiked</value>
+  </data>
+  <data name="&gt;&gt;panelLiked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelLiked.Parent" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;panelLiked.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_Duration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_Duration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_Duration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 173</value>
+  </data>
+  <data name="lbl_Duration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 32</value>
+  </data>
+  <data name="lbl_Duration.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Duration.Name" xml:space="preserve">
+    <value>lbl_Duration</value>
+  </data>
+  <data name="&gt;&gt;lbl_Duration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_Duration.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_Duration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbl_QuantityOfSongs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lbl_QuantityOfSongs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_QuantityOfSongs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>574, 173</value>
+  </data>
+  <data name="lbl_QuantityOfSongs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 32</value>
+  </data>
+  <data name="lbl_QuantityOfSongs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lbl_QuantityOfSongs.Name" xml:space="preserve">
+    <value>lbl_QuantityOfSongs</value>
+  </data>
+  <data name="&gt;&gt;lbl_QuantityOfSongs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_QuantityOfSongs.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_QuantityOfSongs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_AllMusic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 72pt, style=Bold</value>
+  </data>
+  <data name="lbl_AllMusic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_AllMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 35</value>
+  </data>
+  <data name="lbl_AllMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>576, 127</value>
+  </data>
+  <data name="lbl_AllMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lbl_AllMusic.Text" xml:space="preserve">
+    <value>All Music</value>
+  </data>
+  <data name="&gt;&gt;lbl_AllMusic.Name" xml:space="preserve">
+    <value>lbl_AllMusic</value>
+  </data>
+  <data name="&gt;&gt;lbl_AllMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_AllMusic.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;lbl_AllMusic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picture_PlaySong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picture_PlaySong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 17</value>
+  </data>
+  <data name="picture_PlaySong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 216</value>
+  </data>
+  <data name="picture_PlaySong.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="picture_PlaySong.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;picture_PlaySong.Name" xml:space="preserve">
+    <value>picture_PlaySong</value>
+  </data>
+  <data name="&gt;&gt;picture_PlaySong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picture_PlaySong.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;picture_PlaySong.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 250</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panelChildForm</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="player.Enabled" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="player.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 833</value>
+  </data>
+  <data name="player.OcxState" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACFTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5BeEhvc3QrU3RhdGUBAAAABERhdGEHAgIAAAAJAwAAAA8DAAAAuQAAAAIB
+        AAAAAQAAAAAAAAAAAAAAAKQAAAABAwAACAACAAAAAAAFAAAAAAAAAPA/AwAAAAAABQAAAAAAAAAAAAgA
+        AgAAAAAAAwABAAAACwD//wMAAAAAAAsA//8IAAIAAAAAAAMAMgAAAAsAAAAIAAoAAABuAG8AbgBlAAAA
+        CwAAAAsAAAALAP//CwD//wsAAAAIAAIAAAAAAAgAAgAAAAAACAACAAAAAAAIAAIAAAAAAAsAAADABwAA
+        YQIAAAs=
+</value>
+  </data>
+  <data name="player.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="player.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="player.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;player.Name" xml:space="preserve">
+    <value>player</value>
+  </data>
+  <data name="&gt;&gt;player.Type" xml:space="preserve">
+    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;player.Parent" xml:space="preserve">
+    <value>panelChildForm</value>
+  </data>
+  <data name="&gt;&gt;player.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="listBox_AllMusic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 36pt, style=Bold</value>
+  </data>
+  <data name="listBox_AllMusic.ItemHeight" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="listBox_AllMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 292</value>
+  </data>
+  <data name="listBox_AllMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>853, 424</value>
+  </data>
+  <data name="listBox_AllMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listBox_AllMusic.Name" xml:space="preserve">
+    <value>listBox_AllMusic</value>
+  </data>
+  <data name="&gt;&gt;listBox_AllMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox_AllMusic.Parent" xml:space="preserve">
+    <value>panelChildForm</value>
+  </data>
+  <data name="&gt;&gt;listBox_AllMusic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelChildForm.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelChildForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelChildForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 904</value>
+  </data>
+  <data name="panelChildForm.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="panelChildForm.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelChildForm.Name" xml:space="preserve">
+    <value>panelChildForm</value>
+  </data>
+  <data name="&gt;&gt;panelChildForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelChildForm.Parent" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;panelChildForm.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_addMusic.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_addMusic.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 26.25pt, style=Bold</value>
+  </data>
+  <data name="btn_addMusic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_addMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 103</value>
+  </data>
+  <data name="btn_addMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 59</value>
+  </data>
+  <data name="btn_addMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btn_addMusic.Text" xml:space="preserve">
+    <value>Add music</value>
+  </data>
+  <data name="&gt;&gt;btn_addMusic.Name" xml:space="preserve">
+    <value>btn_addMusic</value>
+  </data>
+  <data name="&gt;&gt;btn_addMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_addMusic.Parent" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;btn_addMusic.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Narrow, 18pt, style=Bold</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 247</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 37</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 26pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 185</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 59</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Language: </value>
+  </data>
+  <data name="label6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 14.2499981pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 298</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>422, 59</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>After changing the language, restart the program</value>
+  </data>
+  <data name="label7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="panelSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 904</value>
+  </data>
+  <data name="panelSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="panelSettings.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;panelSettings.Name" xml:space="preserve">
+    <value>panelSettings</value>
+  </data>
+  <data name="&gt;&gt;panelSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelSettings.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;panelSettings.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 27.75pt, style=Bold</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 226</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>276, 55</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Your playlists</value>
+  </data>
+  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbl_HomeMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 47.99999pt, style=Bold</value>
+  </data>
+  <data name="lbl_HomeMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_HomeMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 57</value>
+  </data>
+  <data name="lbl_HomeMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>713, 74</value>
+  </data>
+  <data name="lbl_HomeMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lbl_HomeMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;lbl_HomeMessage.Name" xml:space="preserve">
+    <value>lbl_HomeMessage</value>
+  </data>
+  <data name="&gt;&gt;lbl_HomeMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_HomeMessage.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;lbl_HomeMessage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_PlayLiked.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_PlayLiked.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PlayLiked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1118, 329</value>
+  </data>
+  <data name="btn_PlayLiked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_PlayLiked.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayLiked.Name" xml:space="preserve">
+    <value>btn_PlayLiked</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayLiked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayLiked.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayLiked.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btn_PlayAllMusic.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_PlayAllMusic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PlayAllMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 329</value>
+  </data>
+  <data name="btn_PlayAllMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_PlayAllMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayAllMusic.Name" xml:space="preserve">
+    <value>btn_PlayAllMusic</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayAllMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayAllMusic.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;btn_PlayAllMusic.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_PauseLiked.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_PauseLiked.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PauseLiked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1118, 329</value>
+  </data>
+  <data name="btn_PauseLiked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_PauseLiked.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseLiked.Name" xml:space="preserve">
+    <value>btn_PauseLiked</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseLiked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseLiked.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseLiked.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btn_PauseAllMusic.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btn_PauseAllMusic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PauseAllMusic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>541, 329</value>
+  </data>
+  <data name="btn_PauseAllMusic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 71</value>
+  </data>
+  <data name="btn_PauseAllMusic.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseAllMusic.Name" xml:space="preserve">
+    <value>btn_PauseAllMusic</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseAllMusic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseAllMusic.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;btn_PauseAllMusic.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 36pt, style=Bold</value>
+  </data>
+  <data name="label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 298</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 130</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>      All Music</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>MontereyFLF, 36pt, style=Bold</value>
+  </data>
+  <data name="label5.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 298</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 130</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>      Liked</value>
+  </data>
+  <data name="label5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="panelHome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panelHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 0</value>
+  </data>
+  <data name="panelHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1349, 904</value>
+  </data>
+  <data name="panelHome.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelHome.Name" xml:space="preserve">
+    <value>panelHome</value>
+  </data>
+  <data name="&gt;&gt;panelHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelHome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelHome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1904, 1038</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAIJxAACCcQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAACQAAAGgAAADFAAAA8QAAAP4AAAD0AAAAywAA
+        AG0AAAAKAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAA2AAAA1QAAAP8AAAD+AAAA/wAA
+        AP8AAAD/AAAA/gAAAP8AAADVAAAAMQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAEgAAAD5AAAA/wAA
+        APwAAAD9AAAA/wAAAP8AAAD/AAAA/QAAAPwAAAD/AAAA8wAAADgAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIQAA
+        AOwAAAD/AAAA+wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD7AAAA/wAAANwAAAAQAAAAAAAA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAMAAAAAAAAAoQAAAP8AAAD6AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA+gAA
+        AP8AAACCAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAgAAAAAAAAAbAAAA8QAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/QAAAP8AAADWAAAAAgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAABPAAAA/wAAAPwAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/QAAAP8AAADVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABvAAAA/wAAAPsAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/QAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAsAAAAcAAAAFwAA
+        AAQAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABvAAAA/wAA
+        APsAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/QAAAP8AAADQAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAQAAABZAAAAugAA
+        AOgAAAD2AAAA8wAAANoAAACXAAAAKQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAA
+        AAAAAABQAAAA/wAAAPwAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/QAA
+        AP8AAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAJAAA
+        AMkAAAD/AAAA/gAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA/AAAAHcAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAgAAAAAAAAAdAAAA8wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/QAAAP8AAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+        AAAAAAArAAAA6QAAAP8AAAD7AAAA/AAAAP4AAAD+AAAA/gAAAP0AAAD7AAAA/AAAAP8AAACIAAAAAAAA
+        AAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAApgAAAP8AAAD7AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/QAAAP8AAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABAAAAAAAAAAkAAADQAAAA/wAAAPoAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/gAA
+        APsAAAD/AAAAUgAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAJwAAAPIAAAD/AAAA/AAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD9AAAA/QAAAP8AAADQAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAHIAAAD/AAAA+gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP0AAAD/AAAA0gAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAA
+        AFIAAAD+AAAA/wAAAPsAAAD8AAAA/QAAAP4AAAD9AAAA+wAAAP0AAAD9AAAA+wAAAP8AAADPAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAM8AAAD/AAAA/QAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/gAAACsAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAwAAAAAAAABDAAAA4gAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAACRAAAA6AAA
+        AP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIgAAAPkAAAD/AAAA/gAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA9wAAAB0AAAAAAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAADQAAAGsAAAC+AAAA4gAAAOsAAADgAAAAswAA
+        AD4AAAAWAAAA8wAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAOgAA
+        AP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA9wAA
+        ABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAQAAAAAAAAAAAAAABwAA
+        ABAAAAAGAAAAAQAAAAAAAAAbAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAMAAAAAAAAAOAAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP4AAAD/AAAA9wAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAQAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAIAAAAAAAAAHgAAAPUAAAD/AAAA/gAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP4AAAD/AAAA9wAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAgAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAMgAAAD/AAAA/QAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA9wAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAA
+        AP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAGcAAAD/AAAA+gAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA9wAAABwAAAAAAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+        AAMAAADEAAAA/wAAAPoAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/QAAAP4AAAD/AAAA9wAA
+        ABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAgAAAAAAAAAfAAAA3QAAAP8AAAD7AAAA+wAAAP0AAAD9AAAA/QAAAPsAAAD9AAAA/QAA
+        APoAAAD/AAAA9wAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAGAAAALUAAAD/AAAA/gAAAP8AAAD/AAAA/wAA
+        AP0AAAD/AAAAlQAAAMcAAAD/AAAA9QAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAAAAAABBAAAAngAA
+        AM8AAADfAAAA1wAAALEAAABQAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAA
+        AP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA
+        AAIAAAAAAAAAAAAAAAAAAAAFAAAAAgAAAAAAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAADAAAABAAAAAEAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAMwAAAD/AAAA9AAA
+        ABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAA
+        AMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAA
+        AAIAAAAFAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8wAA
+        AP8AAADeAAAAIgAAAAAAAAABAAAAAAAAAAEAAAAEAAAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAAAAAAZAAAA9QAAAP8AAAD/AAAA+AAAAMYAAAB7AAAAMAAAAAMAAAAAAAAAAAAAAAAAAAADAAAABAAA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAMwAAAD/AAAA9AAA
+        ABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAQAAAAAAAAAZAAAA9QAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/QAAANUAAACNAAAAQAAA
+        AAkAAAAAAAAAAAAAAAAAAAADAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA
+        AMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA9AAAAP8AAADsAAAAygAAAPwAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAOIAAACeAAAAUAAAABEAAAAAAAAAAQAAAAAAAAACAAAABAAAAAIAAAAAAAAAAAAA
+        AAAAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAAAP8AAADPAAAAAAAA
+        ACsAAAB1AAAAwgAAAPcAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAO0AAACvAAAAYgAAABwAAAAAAAAAAAAA
+        AAAAAAABAAAABAAAAAMAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAZAAAA8gAA
+        AP8AAADQAAAAAAAAAAAAAAABAAAAAAAAAB8AAABmAAAAtQAAAPEAAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        APUAAADAAAAAcwAAACoAAAABAAAAAAAAAAAAAAABAAAAAAAAAMwAAAD/AAAA9AAAABwAAAAAAAAAAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAAAAAAZAAAA8gAAAP8AAADQAAAAAAAAAAMAAAAFAAAAAgAAAAAAAAABAAAAAAAAABUAAABYAAAApwAA
+        AOkAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPsAAADPAAAAhQAAADkAAAAHAAAAAAAAAMwAAAD/AAAA9AAA
+        ABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAQAAAAAAAAAZAAAA8QAAAP8AAADPAAAAAAAAAAEAAAAEAAAABAAAAAMAAAAEAAAAAgAA
+        AAAAAAABAAAAAAAAAA0AAABKAAAAmQAAAN8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADeAAAAkQAA
+        AN4AAAD/AAAA9gAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAaAAAA8gAAAP8AAADmAAAARgAAAAoAAAAAAAAAAAAA
+        AAAAAAADAAAABAAAAAMAAAAEAAAAAwAAAAAAAAAAAAAAAAAAAAcAAAA9AAAAiwAAANQAAAD9AAAA/wAA
+        AP8AAAD/AAAA/wAAAP4AAAD/AAAA9wAAABwAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAMAAAA4gAAAP8AAAD7AAAA/wAA
+        AOUAAAChAAAAUgAAABIAAAAAAAAAAQAAAAAAAAACAAAABAAAAAMAAAAEAAAABAAAAAAAAAAAAAAAAAAA
+        AAMAAAAwAAAAfAAAAMkAAAD6AAAA/wAAAP4AAAD9AAAA/wAAAEEAAAAAAAAAAwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAXgAA
+        APkAAAD/AAAA/gAAAP8AAAD/AAAA/wAAAO0AAACvAAAAYAAAABsAAAAAAAAAAAAAAAAAAAABAAAABAAA
+        AAMAAAADAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAkAAAAbwAAAO0AAAD/AAAA/wAAAGUAAAAAAAAABAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABAAAAAAAAABUAAABZAAAAqAAAAOkAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAPQAAAC9AAAAbwAA
+        ACYAAAAAAAAAAAAAAAAAAAABAAAABAAAAAMAAAADAAAABAAAAAIAAAABAAAAAAAAAMwAAAD/AAAA/wAA
+        AHAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA4AAABLAAAAmgAAAOAAAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAPoAAADKAAAAfgAAADIAAAADAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAAAAAA
+        AM0AAAD/AAAA/wAAAHMAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAwAAAAAAAAAAAAAAAAAA
+        AAgAAAA+AAAAjAAAANUAAAD9AAAA/wAAAP8AAAD/AAAA/wAAAP0AAADWAAAAjAAAAD4AAAAIAAAAAAAA
+        AAEAAAABAAAAAAAAAM0AAAD/AAAA/wAAAHIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAEAAAADAAAABAAAAAAAAAAAAAAAAAAAAAMAAAAyAAAAfgAAAMoAAAD6AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAADgAAAAmwAAAEwAAAAPAAAAAAAAAMwAAAD/AAAA/wAAAG0AAAAAAAAABAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAADAAAABAAAAAEAAAAAAAAAAAAAAAAAAAAmAAAAcAAA
+        AL4AAAD1AAAA/wAAAP8AAAD/AAAA/wAAAP8AAADrAAAAowAAAOIAAAD/AAAA/wAAAGUAAAAAAAAABAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABAAA
+        AAEAAAAAAAAAAAAAAAAAAAAcAAAAYwAAALIAAADvAAAA/wAAAP8AAAD/AAAA/wAAAP0AAAD7AAAA/wAA
+        AFsAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAIAAAAAAAAAAQAAAAAAAAATAAAAUwAAAKAAAADiAAAA/wAA
+        AP8AAAD8AAAA/wAAAFEAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAMAAAAAAAAAAQAA
+        AAAAAAANAAAATAAAAKAAAADvAAAA7wAAACYAAAAAAAAAAgAAAADqAK////8AANQAV////wAAqAAv////
+        AACQABP///8AAJAAE////wAAoAAL/0C/AACgAAv9FE8AAKAAE/phFwAAoAAT9ABLAACgABPqACMAAKAA
+        E/QAEQAAkAATyAAJAACQABPIAAUAAKgAE9gABQAA1AAT0AAFAADKABPQAAUAAOTCE9AABQAA+ioT0AAF
+        AAD+ghPIAAUAAP/6E8gABQAA//oTyAAFAAD/+hPkAAUAAP/6E+oABQAA//oT9ICFAAD/+hP6YIUAAP/6
+        E/0IhQAA//oT/8CFAAD/+hH//IUAAP/6EL/8hQAA//oKA/yFAAD/+gCBfIUAAP/6ABQshQAA//oAAoSF
+        AAD/+hAAUIUAAP/6EgAEhQAA//oBQACFAAD/+hAoAAUAAP/6BQUABQAA//oAoCAFAAD/+QAUCAUAAP/6
+        gACAhQAA//0QACCFAAD//IoABIUAAP//gEAAhQAA///yEAAFAAD///9CgAUAAP///+hQBQAA/////QoF
+        AAA=
+</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1920, 1080</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Audioplayer</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
